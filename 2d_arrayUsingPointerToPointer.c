@@ -29,6 +29,7 @@ void free_Matrix(int rows,double** mat){
   for(i=0;i<rows;i++){free(mat[i]);}
     free(mat);
 }
+
 int main(){
 
     double** matrix;
